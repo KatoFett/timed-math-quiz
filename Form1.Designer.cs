@@ -296,7 +296,7 @@
             // dateLabel
             // 
             this.dateLabel.AutoSize = true;
-            this.dateLabel.Location = new System.Drawing.Point(12, 339);
+            this.dateLabel.Location = new System.Drawing.Point(12, 336);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(82, 13);
             this.dateLabel.TabIndex = 21;

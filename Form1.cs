@@ -101,6 +101,7 @@ namespace MathQuiz
         {
             StartTheQuiz();
             startButton.Enabled = false;
+            // Reset time left color.
             timeLabel.BackColor = Color.Transparent;
         }
 
@@ -140,7 +141,7 @@ namespace MathQuiz
                 timeLeft = timeLeft - 1;
                 timeLabel.Text = timeLeft + " seconds";
 
-                // Change the color to red if there are < 5s remaining.
+                // Change the label color to red if there are < 5s remaining.
                 if (timeLeft <= 5)
                     timeLabel.BackColor = Color.Red;
             }
